@@ -46,7 +46,7 @@ class AnapencerePage(QMainWindow):
         self.anapencereform.sensoradres.installEventFilter(self)
         self.current_database_path = None
         self.showMaximized()
-        self.setWindowIcon(QIcon('f_logo-150x150.ico'))
+        self.setWindowIcon(QIcon('icon_logo.ico'))
         self.baglanti = sqlite3.connect("urunler.db")
         self.islem = self.baglanti.cursor()
         self.baglanti.commit()
