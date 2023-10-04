@@ -14,7 +14,7 @@ Bu proje python ve Qt kullanılarak geliştirilen bir bilgisayar programıdır..
 
   
 ## Program Kurulum  Kılavuzu
-   Dosyaları indirdikten sonra PyQt5, SQLite3, Tkinter, sys, json, shutil, pandas ve itetools kütüphanelerini yüklemeniz gerekmektedir.
+   Dosyaları indirdikten sonra PyQt5, SQLite3, Tkinter, sys, json, shutil, pandas ve itertools kütüphanelerini yüklemeniz gerekmektedir.
    Eğer programı bilgisayarınıza exe dosyası olarak saklamak isterseniz ilk önce pyinstaller kütüphanesini yüklemelisiniz. Ardından terminal üzerinden 
 ```
 cd (giris.py dosaysının bilgisayrınızdaki uzantısı)
